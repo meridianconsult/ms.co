@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- add responsiveness -->
+    <meta name="keywords" content="software, applications, solutions, web, mobile, enterprise, consultancy, east, africa">
     <meta name="description" content="Meridian Softech Inc., a growing African brand, is a software application development company that creates web-based applications for businesses and people. Our Enterprise Solutions Consultancy department deals with out-sourced projects from our list of esteemed clients.">
     <meta name="author" content="Meridian Softech Inc.">
 
@@ -30,13 +31,13 @@
 	<![endif]-->
 
     <!-- Normalize CSS -->
-    <link href="vendor/foundation-zurb/normalize.css" rel="stylesheet" type="text/css">
+    <link href="vendor/foundation-5.5.0/css/normalize.css" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
     <!-- Foundation Core CSS -->
-    <link href="vendor/foundation-zurb/foundation.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="vendor/foundation-5.5.0/css/foundation.min.css" rel="stylesheet" type="text/css"> -->
 
     <!-- Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -47,6 +48,8 @@
     <link href="css/loader.css" rel="stylesheet">
 	<link href="color/default.css" rel="stylesheet">
 
+	<!-- Modernizr -->
+	<script src="vendor/foundation-5.5.0/js/vendor/modernizr.js"></script>
 </head>
 
 <body id="page-top" class="" data-spy="scroll" data-target=".navbar-custom">
@@ -56,63 +59,71 @@
         <div id="load"></div>
 	</div>
 
-	<!-- Nav Bar (Do Not Touch!) -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="/">
-                    <h1>Meridian Softech</h1>
-                </a>
-            </div>
+	<!-- Page Header -->
+	<!-- <header id="header" class="home"> -->
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#intro">Ms.co</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="http://ms.co/about">Meridian Softech</a></li>
-                            <li><a href="http://ms.co/appz">Meridian Appz</a></li>
-                            <li><a href="http://ms.co/consult">Meridian Consult</a></li>
-                            <li><a href="http://ms.co/fund">Meridian Fund</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">What We Offer <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#service">Products</a></li>
-                            <li><a href="#service">Services</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#contact">Get In Touch</a></li>
-                    <li class="emphasis"><a href="https://inside.ms.co/id/register">Register your Meridian ID</a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+		<!-- Nav Bar (Do Not Touch!) -->
+	    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+	        <div class="container">
+	            <div class="navbar-header page-scroll">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+	                    <i class="fa fa-bars"></i>
+	                </button>
+	                <a class="navbar-brand" href="/">
+	                    <h1>Meridian Softech</h1>
+	                </a>
+	            </div>
 
-	<!-- Section: intro -->
-    <section id="intro" class="intro">
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+	                <ul class="nav navbar-nav">
+	                    <li class="active"><a href="#intro">Ms.co</a></li>
+	                    <li class="dropdown">
+	                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a>
+	                        <ul class="dropdown-menu">
+	                            <li><a href="http://ms.co/about">Meridian Softech</a></li>
+	                            <li><a href="http://ms.co/appz">Meridian Appz</a></li>
+	                            <li><a href="http://ms.co/consult">Meridian Consult</a></li>
+	                            <li><a href="http://ms.co/fund">Meridian Fund</a></li>
+	                        </ul>
+	                    </li>
+	                    <li class="dropdown">
+	                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">What We Offer <b class="caret"></b></a>
+	                        <ul class="dropdown-menu">
+	                            <li><a href="#service">Products</a></li>
+	                            <li><a href="#service">Services</a></li>
+	                        </ul>
+	                    </li>
+	                    <li><a href="#contact">Get In Touch</a></li>
+	                    <li class="emphasis"><a href="https://inside.ms.co/id/register">Register your Meridian ID</a></li>
+	                </ul>
+	            </div>
+	            <!-- /.navbar-collapse -->
+	        </div>
+	        <!-- /.container -->
+	    </nav>
 
-		<div class="slogan">
-			<h2>The Software Architects</h2>
-			<h4>Building Intuitive Software Applications for Personal and Business Brands</h4>
-			<h4>Since '08</h4>
-		</div>
-		<div class="page-scroll">
-			<a href="#about" class="btn btn-circle">
-				<i class="fa fa-angle-double-down animated"></i>
-			</a>
-		</div>
+		<!-- Section: intro -->
+	    <section id="intro" class="intro">
 
-    </section>
-	<!-- /Section: intro -->
+			<div class="slogan">
+				<h2>The Software Architects</h2>
+				<h4>Building Intuitive Software Applications for Personal and Business Brands</h4>
+				<h4>Since '08</h4>
+			</div>
+			<div class="page-scroll">
+				<a href="#about" class="btn btn-circle">
+					<i class="fa fa-angle-double-down animated"></i>
+				</a>
+			</div>
+
+	    </section>
+		<!-- /Section: intro -->
+
+	<!-- </header> -->
+
+	<!-- Main Page Content -->
+	<main>
 
 	<!-- Section: about the company -->
     <section id="about" class="home-section text-center">
@@ -184,7 +195,7 @@
 						<h5>Meridian Fund</h5>
                         <p class="subtitle">(Work in progress)</p>
                         <div class="avatar">
-                        	<img src="img/family/msfund.gif" alt="" class="img-responsive" />
+                        	<img src="img/family/msappz.jpg" alt="" class="img-responsive" />
                         </div>
                     </div>
                 </div>
@@ -356,8 +367,6 @@
 	<!-- /Section: services -->
 
 
-
-
 	<!-- Section: contact -->
     <section id="contact" class="home-section text-center">
 		<div class="heading-contact">
@@ -464,7 +473,11 @@
 	</section>
 	<!-- /Section: contact -->
 
-	<footer>
+	</main>
+	<!-- /main -->
+
+	<!-- Page Footer -->
+	<footer id="footer" class="home">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-lg-12">
