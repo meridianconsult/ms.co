@@ -16,12 +16,7 @@ html {
     height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     margin: 0 0 30px;
     text-transform: uppercase;
     font-family: Montserrat,sans-serif;
@@ -230,12 +225,12 @@ hr {
 }
 
 #intro.intro {
-	padding:20% 0 0 0;
+	padding:15% 0 0 0;
 }
 
 .intro .slogan {
 	text-align: center;
-
+    font-size: 50px;
 }
 
 .intro .page-scroll {
@@ -243,7 +238,7 @@ hr {
 }
 
 .brand-heading {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .intro-text {
