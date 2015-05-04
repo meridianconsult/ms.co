@@ -36,3 +36,24 @@ footer {
   background-color: #67b0d1;
   border-color: #67b0d1;
 }
+
+/* Backgrounds */
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-gray {
+  background: #f8f8f8;
+}
+
+
+.bg-dark {
+  background: #575757;
+}
+
+/* Typography */
+
+.text-light {
+  color: #fff;
+}
