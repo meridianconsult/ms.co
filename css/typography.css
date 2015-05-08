@@ -1,3 +1,6 @@
+/* Google Fonts */
+@import url('http://fonts.googleapis.com/css?family=Cutive+Mono');
+
 /* Typography.css */
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,4 +23,29 @@ p.lead {
 
 .light {
     font-weight: 400;
+}
+
+.intro-text {
+    font-size: 18px;
+}
+
+.intro .slogan h1 {
+    color: #113F8C;
+    text-shadow: none;
+    font-size: 1.05em;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: 'Cutive Mono', sans-serif;
+    background-color: rgba(255,255,255,.6);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 0px;
+    border-color: #000;
+    border-style: none;
+}
+
+.intro .slogan h4 {
+    color: #fff;
+    font-family: 'Cutive Mono', sans-serif;
+    text-shadow: -1px 1px 1px #000;
 }

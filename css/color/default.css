@@ -57,3 +57,9 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 .text-light {
   color: #fff;
 }
+
+/* Nav-Bar */
+
+.navbar-custom.top-nav-collapse {
+  background-color: #6A409C;
+}
