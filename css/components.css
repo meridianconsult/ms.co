@@ -8,7 +8,8 @@
 	width:100%;
 	position:relative;
 	
-	background: url(../img/background-header.png) top center;
+	background: url(../img/background-header.jpg) no-repeat top center;
+    background-size: cover;
 }
 
 #intro.intro {

@@ -27,7 +27,7 @@
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255,255,255,.4);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -38,7 +38,7 @@
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #FFF;
+    color: #555;
 	text-transform: uppercase;
 	font-weight: 700;
 }
