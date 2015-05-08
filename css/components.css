@@ -1,1 +1,51 @@
 /* Components.css */
+
+/* ===========================
+--- Intro
+============================ */
+
+.intro {
+	width:100%;
+	position:relative;
+	
+	background: url(../img/background-header.png) top center;
+}
+
+#intro.intro {
+	padding:15% 0 0 0;
+}
+
+.intro .slogan {
+	text-align: center;
+    font-size: 50px;
+    margin-bottom: 7%;
+}
+
+.intro .page-scroll {
+	text-align: center;
+}
+
+.brand-heading {
+    font-size: 30px;
+}
+
+.intro .slogan h1 {
+    color: #113F8C;
+    text-shadow: none;
+    font-size: 1.05em;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: 'Cutive Mono', sans-serif;
+    background-color: rgba(255,255,255,.6);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 0px;
+    border-color: #000;
+    border-style: none;
+}
+
+.intro .slogan h4 {
+    color: #fff;
+    font-family: 'Cutive Mono', sans-serif;
+    text-shadow: -1px 1px 1px #000;
+}
