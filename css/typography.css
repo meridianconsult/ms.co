@@ -3,11 +3,23 @@
 
 /* Typography.css */
 
+body {
+    font-family: 'Bitstream Charter', serif;
+    font-weight: 300;
+}
+
 h1, h2, h3, h4, h5, h6 {
-    margin: 0 0 30px;
+    margin: 0 0 10px 0;
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 700;
     letter-spacing: 1px;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+h4, h5, h6 {
+    font-weight: 300;
 }
 
 p {
