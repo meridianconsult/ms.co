@@ -41,6 +41,10 @@ body>main>section header hgroup h4 {
     font-size: 1.2em;
 }
 
+body>main>section footer {
+    padding-top: 20px;
+}
+
 
 /* ===========================
 --- About
@@ -209,12 +213,12 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 --- Footer
 ============================ */
 
-footer {
+#footer {
 	text-align: center;
 	padding: 20px 0 ;
 }
 
-footer p {
+#footer p {
 	color: #f8f8f8;
 }
 
