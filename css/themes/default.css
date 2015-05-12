@@ -1,43 +1,12 @@
-
-a,.tp-caption a.btn:hover {
-	color: #67b0d1;
-}
-.top-nav-collapse {
-	background: #67b0d1;
-}
-
-.navbar-custom ul.nav ul.dropdown-menu li a:hover {
-	color: #67b0d1;
-}
-
-.owl-theme .owl-controls .owl-page.active span,
-.owl-theme .owl-controls.clickable .owl-page:hover span {
-    background-color: #67b0d1;
-}
-
-.widget-avatar .avatar:hover {
-    border: 5px solid #67b0d1;
-}
-
-.bg-skin {
-	background: #67b0d1;
-}
-
-form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
-	border-color: #67b0d1;
-}
-
-#footer {
-    background-color: #6A409C;
-}
-
-.btn-skin {
-  color: #fff;
-  background-color: #67b0d1;
-  border-color: #67b0d1;
-}
+/**
+ * Default.css
+ */
 
 /* Backgrounds */
+
+.bg-skin {
+    background-color: #6A409C;
+}
 
 .bg-white {
   background: #fff;
@@ -47,9 +16,24 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
   background: #f8f8f8;
 }
 
-
 .bg-dark {
   background: #575757;
+}
+
+/* Buttons */
+
+.btn-skin {
+  color: #fff;
+  background-color: #67b0d1;
+  border-color: #67b0d1;
+}
+
+/* Hyperlinks */
+
+/* Media */
+
+.widget-avatar .avatar:hover {
+    border: 5px solid #67b0d1;
 }
 
 /* Typography */
@@ -58,8 +42,12 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
   color: #fff;
 }
 
-/* Nav-Bar */
+/* Navigation */
 
 .navbar-custom.top-nav-collapse {
-  background-color: #6A409C;
+    background-color: #6A409C;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+    color: #6A409C;
 }
