@@ -1,5 +1,5 @@
 /**
- * Default.css
+ * Theme: Default
  */
 
 /* Backgrounds */
@@ -29,6 +29,14 @@
 }
 
 /* Hyperlinks */
+
+a {
+    color: #6A409C;
+}
+
+a:hover {
+    color: #CAB;
+}
 
 /* Media */
 
