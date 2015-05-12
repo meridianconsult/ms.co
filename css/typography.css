@@ -1,10 +1,10 @@
 /* Google Fonts */
-@import url('http://fonts.googleapis.com/css?family=Cutive+Mono');
+@import url('http://fonts.googleapis.com/css?family=Ubuntu:400,700|PT+Serif:400,700');
 
 /* Typography.css */
 
 body {
-    font-family: 'Bitstream Charter', serif;
+    font-family: 'PT Serif', 'Bitstream Charter', 'Georgia', serif;
     font-weight: 300;
 }
 
