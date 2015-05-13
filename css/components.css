@@ -8,8 +8,7 @@
 	width: 100%;
 	position: relative;
 	padding: 20% 0 10% 0;
-	/*background: url(../img/background-header.png) top center;*/
-    border-bottom: 1px dotted #ccc;
+	background: url(../img/background-header.jpg) top center;
 }
 
 .intro .slogan {
@@ -27,7 +26,7 @@
 }
 
 .intro .slogan h1 {
-    /*color: #FFF;*/
+    color: #FFF;
     text-shadow: none;
     font-size: 1em;
     line-height: 60px;
@@ -42,7 +41,7 @@
 }
 
 .intro .slogan h4 {
-    color: #6A409C;
+    color: #FFF;
     font-family: 'Ubuntu', sans-serif;
 }
 
